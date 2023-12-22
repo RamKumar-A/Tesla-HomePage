@@ -55,10 +55,6 @@ function stickyNavBar(entries) {
   const [entry] = entries;
   const isIntersecting = !entry.isIntersecting;
   nav.classList.toggle('sticky', isIntersecting);
-  navLink.style.color = isIntersecting ? '#000' : '#fcfcfc';
-  navLinks.forEach((el) => {
-    el.style.color = isIntersecting ? '#000' : '#fcfcfc';
-  });
 }
 
 const navbarObserver = new IntersectionObserver(stickyNavBar, {

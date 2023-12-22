@@ -24,6 +24,7 @@ body {
   /* animation: headAnimate 0.5s linear; */
 }
 .header .head {
+  display: none;
   height: 3.5em;
   font-size: 1em;
   text-align: center;
@@ -39,10 +40,10 @@ body {
   padding-right: 10px;
 }
 .header .head a {
-  color: #d8c8c8;
+  color: #fff;
   padding-left: 10px;
 }
-.header .video-section-1 {
+.header .img-section-1 {
   height: 100vh;
   object-fit: cover;
   position: absolute;
@@ -57,7 +58,7 @@ body {
   justify-content: space-around;
   align-items: center;
   /* flex: 0 1 0; */
-  color: #fcfcfc;
+  color: #090909;
   background: transparent;
 }
 .navs .nav_lists {
@@ -77,12 +78,17 @@ body {
   padding: 5px 15px;
   border-radius: 8px;
 }
+/* .navs .nav_lists .nav_list {
+  color: #000;
+} */
+
 .navs .nav_lists li a {
   text-decoration: none;
-  color: #fcfcfc;
+  color: #090909;
 }
+
 .header .content-1 {
-  color: #fcfcfc;
+  color: #090909;
   text-align: center;
   padding: 1.1em;
   font-size: 1.7em;
@@ -108,29 +114,15 @@ body {
 }
 .model-1 {
   background: url('./Homepage-Model-3-Desktop-NA.avif');
-  /* background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative; */
-  /* background-color: #000; */
-  /* background-attachment: scroll; */
 }
 
 .model-2 {
   /* height: 100vh; */
   background: url('./Homepage-Model-Y-Global-Desktop.avif');
-  /* background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative; */
 }
 .model-3 {
   /* height: 100vh; */
   background: url('./Homepage-Model-S-Desktop-LHD-6.22.avif');
-  /* background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative; */
 }
 .model-4 {
   background: url('./Homepage-Model-X-Desktop-LHD.avif');
